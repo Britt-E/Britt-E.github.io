@@ -109,9 +109,18 @@ header button {
   height: 40vh;
   background-image: url("./img/hero.jpg");
   background-size: cover;
+  position: relative;
+  text-align: left;
+  min-height: 200px;
 }
 
-.hero h1 {
+.intro {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}
+
+.intro h1 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1;
@@ -119,7 +128,7 @@ header button {
   color: var(--white);
 }
 
-.hero h2 {
+.intro h2 {
   font-size: 1rem;
   font-weight: 700;
   color: var(--white);
@@ -197,7 +206,7 @@ a:has(img) {
 }
 
 .project-link:hover {
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 5px 5px rgba(255, 112, 166, 1);
   transform: translateY(-4px);
 }
 
@@ -296,7 +305,7 @@ a:has(img) {
   }
 
   .hero {
-    height: 100vh;
+    height: 90vh;
     background-image: url("./img/hero.jpg");
     background-size: cover;
     border-color: black;
@@ -319,6 +328,11 @@ a:has(img) {
     padding: 20px 15px;
   }
 
+  .desktop-nav a:hover {
+    background-color: 10px 5px 5px rgba(255, 112, 166, 1);
+    /* transform: translateY(-4px); */
+  }
+
   .desktop-nav {
     display: inline-block;
     gap: 40px;
@@ -330,13 +344,9 @@ a:has(img) {
     color: var(--pink);
   }
 
-  .hero {
-    padding: 380px 56px;
-  }
-
   .hero h1 {
     font-size: 3.5rem;
-    max-width: 70%;
+    max-width: 100%;
   }
 
   .hero h2 {
