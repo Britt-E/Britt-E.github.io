@@ -107,7 +107,7 @@ header button {
 /* HERO */
 .hero {
   height: 40vh;
-  background-image: url("./img/hero.jpg");
+  background-image: url("./img/laptop.jpg");
   background-size: cover;
   position: relative;
   text-align: left;
@@ -116,8 +116,8 @@ header button {
 
 .intro {
   position: absolute;
-  bottom: 10px;
-  left: 15px;
+  bottom: 20px;
+  left: 10px;
 }
 
 .intro h1 {
@@ -169,7 +169,7 @@ a:has(img) {
   border-radius: 50%;
 }
 
-.about-me p {
+.about-text {
   color: var(--white);
   margin: 20px;
   text-align: left;
@@ -304,13 +304,6 @@ a:has(img) {
     padding: 10px;
   }
 
-  .hero {
-    height: 90vh;
-    background-image: url("./img/hero.jpg");
-    background-size: cover;
-    border-color: black;
-  }
-
   header nav ul {
     display: flex;
     gap: 24px;
@@ -330,7 +323,7 @@ a:has(img) {
 
   .desktop-nav a:hover {
     background-color: 10px 5px 5px rgba(255, 112, 166, 1);
-    /* transform: translateY(-4px); */
+    transform: translateY(-4px);
   }
 
   .desktop-nav {
@@ -344,6 +337,13 @@ a:has(img) {
     color: var(--pink);
   }
 
+  .hero {
+    height: 90vh;
+    background-image: url("./img/laptop.jpg");
+    background-size: cover;
+    border-color: black;
+  }
+
   .hero h1 {
     font-size: 3.5rem;
     max-width: 100%;
@@ -353,23 +353,30 @@ a:has(img) {
     font-size: 1.5rem;
   }
 
+  .intro {
+    bottom: 80px;
+    left: 20px;
+  }
+
   .about-me {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 
   .about-me img {
     width: 20%;
-    margin-bottom: 0;
+    margin: 20px;
+    padding: 20px;
     border-radius: 50%;
   }
 
-  .about-me p {
+  .about-text {
     display: block;
     text-wrap: wrap;
     width: 50%;
-    margin: 0px;
+    margin: 30px;
+    padding: 30px;
   }
 
   .articles {
