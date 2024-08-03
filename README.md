@@ -40,13 +40,13 @@ I implemented distinct styles for hover states across navigation links, project 
 
 ![Desktop min-width: 768px](./screenshots/desktop.jpeg)
 
-#### My Projects Page Desktop
-
-![My projects page desktop min-width: 768px](./screenshots/projects-page-desktop.jpeg)
-
 #### Mobile max-width 767px
 
 ![Mobile max-width 767px](./screenshots/mobile.jpeg)
+
+#### My Projects Page Desktop
+
+![My projects page desktop min-width: 768px](./screenshots/projects-page-desktop.jpeg)
 
 #### My Projects Page Mobile
 
