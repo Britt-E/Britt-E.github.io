@@ -145,7 +145,6 @@ header button {
 
 .intro h1 {
   font-size: 2rem;
-  font-weight: 700;
   line-height: 1;
   padding: 150px 16px 0px 16px;
   color: var(--white);
@@ -154,7 +153,6 @@ header button {
 .intro h2 {
   font-size: 1rem;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
   color: var(--white);
   margin-left: 16px;
   margin-top: 0.5rem;
@@ -326,6 +324,7 @@ a:has(img) {
 
 .footer div {
   font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
   color: var(--white);
 }
 
