@@ -42,7 +42,7 @@ I implemented distinct styles for hover states across navigation links, project 
 
 #### My Projects Page Desktop
 
-![My projects page desktop min-width: 768px](./screenshots/projects-page-desktop.jpeg.jpeg)
+![My projects page desktop min-width: 768px](./screenshots/projects-page-desktop.jpeg)
 
 #### Mobile max-width 767px
 
@@ -50,7 +50,7 @@ I implemented distinct styles for hover states across navigation links, project 
 
 #### My Projects Page Mobile
 
-![My projects page mobile max-width: 767px](./screenshots/projects-page-desktop.jpeg.jpeg)
+![My projects page mobile max-width: 767px](./screenshots/projects-page-desktop.jpeg.)
 
 #### Nav Hover
 
