@@ -44,11 +44,11 @@ I implemented distinct styles for hover states across navigation links, project 
 >
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code:
 
-#### Desktop
+#### Desktop min-width 768px
 
 ![Desktop min-width: 768px](./screenshots/desktop.jpeg)
 
-#### Mobile
+#### Mobile max-width 767px
 
 ![Mobile max-width 767px](./screenshots/mobile.jpeg)
 

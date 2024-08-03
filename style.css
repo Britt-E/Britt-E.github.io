@@ -10,14 +10,13 @@
   --blue: #00bbf9;
   --green: #00f5d4;
   --white: #ffffff;
-  --black: #111111;
 }
 /* CSS Reset */
 html {
   box-sizing: border-box;
   font-size: 16px;
   font-family: "Concert One", sans-serif;
-  color: var(--black);
+  color: var(--background);
   scroll-behavior: smooth;
 }
 
