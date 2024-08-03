@@ -46,11 +46,11 @@ I implemented distinct styles for hover states across navigation links, project 
 
 #### Mobile max-width 767px
 
-![Mobile max-width 767px](./screenshots/projects-page-mobile.jpeg)
+![Mobile max-width 767px](./screenshots/mobile.jpeg)
 
 #### My Projects Page Mobile
 
-![My projects page mobile max-width: 767px](./screenshots/projects-page-desktop.jpeg.)
+![My projects page mobile max-width: 767px](./screenshots/projects-page-mobile.jpeg)
 
 #### Nav Hover
 
