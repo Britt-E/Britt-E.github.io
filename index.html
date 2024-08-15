@@ -9,15 +9,7 @@
   </head>
   <body>
     <header>
-      <div class="mobile-header">
-        <button type="button" class="hamburger-button">
-          <img
-            class="hamburger-icon"
-            src="./img/hamburger.svg"
-            alt="Three horizontal lines, positioned one above the other"
-          />
-        </button>
-      </div>
+      <!-- Desktop Navigation -->
       <nav class="desktop-nav" aria-label="Primary">
         <ul>
           <li>
@@ -31,18 +23,24 @@
           </li>
         </ul>
       </nav>
-      <nav class="mobile-nav display-none" aria-label="Primary">
-        <ul>
-          <li>
-            <a href="#about">About</a>
+      <!-- Mobile Navigation -->
+      <nav class="mobile-nav" aria-label="Primary">
+        <ul class="mobile-menu">
+          <li class="mobile-nav-item">
+            <a href="#about" class="mobile-nav-link">About</a>
           </li>
-          <li>
-            <a href="./pages/projects.html">Projects</a>
+          <li class="mobile-nav-item">
+            <a href="#projects" class="mobile-nav-link">Projects</a>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
+          <li class="mobile-nav-item">
+            <a href="#contact" class="mobile-nav-link">Contact</a>
           </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
 
@@ -80,12 +78,11 @@
       <img class="bio-image" src="./img/bio-image.jpg" alt="portrait" />
       <div class="about-text">
         <p>
-          Hello! I’m Brittany, an aspiring software developer with a passion for
-          creating engaging user experinces through visually compelling
-          aesthetics. My journey in technology began with a fascination for
-          understanding how things work and a desire to create impactful
-          projects. I thrive on new challenges and am always looking to grow my
-          skill set.
+          Hello! I’m Brittany, an aspiring software developer who thrives on
+          solving problems and experimenting with creative solutions. My journey
+          in technology began with a fascination for understanding how things
+          work and a desire to create impactful projects. I’m constantly seeking
+          new challenges and am always looking to grow my skill set.
         </p>
         <br />
         <p>
@@ -115,7 +112,7 @@
     </section>
 
     <!-- PROJECTS -->
-    <section class="projects">
+    <section class="projects" id="projects">
       <h2>My Projects</h2>
       <div class="articles">
         <article class="project-link">
@@ -206,5 +203,6 @@
       </div>
       <div>&copy; Brittany Evans 2024</div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>

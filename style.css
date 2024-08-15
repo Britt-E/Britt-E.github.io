@@ -11,6 +11,7 @@
   --green: #00f5d4;
   --white: #ffffff;
 }
+
 /* CSS Reset */
 html {
   box-sizing: border-box;
@@ -74,36 +75,88 @@ body {
   background-color: var(--background);
 }
 
-.display-none {
-  display: none;
-}
-
-/* HEADER */
-header .mobile-header {
-  padding: 16px;
+/* MOBILE NAVIGATION */
+.mobile-nav {
+  min-height: 70px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0 24px;
+  position: relative;
+  z-index: 999;
 }
 
-header button {
-  all: unset;
+.mobile-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
 }
 
-.mobile-nav a {
-  text-decoration: none;
-  color: var(--white);
+.mobile-menu {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: var(--pink);
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.mobile-menu.active {
+  left: 0;
+}
+
+.mobile-nav-item {
+  list-style: none;
+  margin: 16px 0;
+}
+
+.mobile-nav-link {
   display: block;
-  padding: 4px 16px;
+  color: var(--white);
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.7s ease;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.mobile-nav-link:hover {
+  color: var(--white);
+  background: var(--light-pink);
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.hamburger {
+  display: block;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .desktop-nav {
   display: none;
-}
-
-.hamburger-icon {
-  height: 50px;
 }
 
 /* HERO */
@@ -331,7 +384,7 @@ a:has(img) {
 @media (min-width: 768px) {
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px;
   }
@@ -342,7 +395,7 @@ a:has(img) {
     margin-right: 16px;
   }
 
-  header .mobile-header .hamburger-icon {
+  .hamburger {
     display: none;
   }
 

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <header>
+    <!-- <header>
       <div class="mobile-header">
         <button type="button" class="hamburger-button">
           <img
@@ -45,6 +45,43 @@
             <a href="../index.html#contact">Contact</a>
           </li>
         </ul>
+      </nav>
+    </header> -->
+
+    <header>
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Primary">
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../index.html#about">About</a>
+          </li>
+          <li>
+            <a href="../index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Navigation -->
+      <nav class="mobile-nav" aria-label="Primary">
+        <ul class="mobile-menu">
+          <li class="mobile-nav-item">
+            <a href="../index.html#about" class="mobile-nav-link">About</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a href="./pages/projects.html" class="mobile-nav-link">Projects</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a href="../index.html#contact" class="mobile-nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
 
@@ -94,5 +131,6 @@
       </div>
       <div>&copy; Brittany Evans 2024</div>
     </footer>
+    <script src="../index.js"></script>
   </body>
 </html>
