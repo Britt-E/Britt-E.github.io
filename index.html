@@ -158,23 +158,45 @@
       <div class="contact-form">
         <form>
           <div class="contact-field">
-            <input type="text" id="your-name" placeholder="Name" />
+            <input
+              type="text"
+              id="name"
+              class="item"
+              placeholder="Name"
+              autocomplete="off"
+            />
           </div>
           <div class="contact-field">
-            <input type="text" id="company-name" placeholder="Company" />
+            <input
+              type="text"
+              id="company"
+              class="item"
+              placeholder="Company"
+              autocomplete="off"
+            />
           </div>
           <div class="contact-field">
-            <input type="text" id="email" placeholder="Email" />
+            <input
+              type="text"
+              id="email"
+              class="item"
+              placeholder="Email"
+              autocomplete="off"
+            />
           </div>
           <div class="contact-field">
             <textarea
               name="message-text"
               id="message"
+              class="item"
               rows="4"
               placeholder="Message"
+              autocomplete="off"
             ></textarea>
           </div>
-          <button class="contact-send" type="submit">SEND</button>
+          <button
+            class="contact-send"
+            type="submit">SEND</button>
         </form>
       </div>
     </section>
@@ -203,6 +225,8 @@
       </div>
       <div>&copy; Brittany Evans 2024</div>
     </footer>
-    <script src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
   </body>
 </html>

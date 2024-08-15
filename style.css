@@ -316,6 +316,7 @@ a:has(img) {
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
+  color: var(--background);
   background-color: var(--light-pink);
   border-color: var(--pink);
   border-radius: 20px;
